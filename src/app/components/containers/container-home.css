@@ -1,0 +1,71 @@
+.Home{
+    width: 1366px;
+    height: 768px;
+
+    display: grid;
+    grid:
+        "sidebar body" 1fr / auto 1fr;
+    gap: 8px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    width: 100px;
+    height: 100vh;
+    background: #7f69a5;
+    border-right: 1px solid #000;
+}
+
+.principal {    
+    grid-area: body;
+}
+
+.principal .User-panel{
+    height: 90px;
+    width: 1555px;
+    background: #fff;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    position: absolute;
+    top: 0;
+    left: 100px;    
+}
+
+.interface {
+    width: 1200px;
+    position: absolute;
+    top: 120px;
+    left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.interface .card{
+    width: 250px;
+    height: 570px;
+    border: 1px solid #000;
+    margin: 30px 60px;
+}
+
+.interface .card .card2{
+    width: 250px;
+    height: 570px;
+    border: 1px solid #000;
+    background: #fff;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.task-pending{
+    background: #B5E4FB;
+}
+
+.task-progress{
+    background: #FFFDAB;
+}
+
+.task-complete{
+    background: #CFF4C8;
+}

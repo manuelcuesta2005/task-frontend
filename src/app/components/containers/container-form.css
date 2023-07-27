@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Montserrat:wght@300;500;700&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+    height: 100vh; 
+    background: linear-gradient(135deg, #FFFDAB 0%, #D2D8ED 21.67%, #B5E4FB 63.07%, #CFF4C8 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 25%;
+    height: 510px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.container-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.marca{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -18%;
+    left: 30%;
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+}
+
+a{
+    margin: 5px 0;
+}

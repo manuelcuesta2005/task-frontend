@@ -1,0 +1,10 @@
+.button_primary {
+    width: 60%;
+    height: 45px;
+    background: #B1EFEF;
+    border-radius: 18px;
+    border: 1px black solid;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0px 10px 0px;
+}
