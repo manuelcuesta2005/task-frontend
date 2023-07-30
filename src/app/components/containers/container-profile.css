@@ -1,0 +1,22 @@
+.container-photo{
+    width: 400px;
+    height: 520px;
+    border: 3px solid #7F69A5;
+    border-radius: 18px;
+    position: absolute;
+    left: 15%;
+    top: 5vh;
+}
+
+.container-form{
+    width: 420px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5vh;
+    right: 5%;
+
+}
