@@ -14,6 +14,29 @@
     height: 100vh;
     background: #7f69a5;
     border-right: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-nav{
+    margin: 15px;
+    transition: all .6s;
+}
+
+.image-nav:hover{
+    filter: invert(1.0);
+    transition: all .6s;
+}
+
+.image-nav:checked{
+    filter: invert(1.0);
+}
+
+.sidebar .logout{
+    position: absolute;
+    bottom: 0%;
 }
 
 .principal {    
@@ -22,13 +45,23 @@
 
 .principal .User-panel{
     height: 90px;
-    width: 1605px;
+    width: 1595px;
     background: #fff;
     border-bottom: 1px solid #000;
     border-left: 1px solid #000;
     position: absolute;
     top: 0;
-    left: 100px;    
+    left: 100px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;  
+}
+
+icon-user{
+    margin: 15px;
+    margin-right: 35px;
 }
 
 .interface {
