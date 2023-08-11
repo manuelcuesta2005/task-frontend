@@ -20,3 +20,14 @@
     right: 5%;
 
 }
+
+.container-card{
+    width: 400px;
+    height: 520px;
+    background: #D9D9D9;
+    border: 1px solid #000;
+    border-radius: 18px;
+    position: absolute;
+    left: 15%;
+    top: 5vh;
+}

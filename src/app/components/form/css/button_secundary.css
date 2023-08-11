@@ -1,0 +1,11 @@
+.button_secundary{
+    width: 90%;
+    height: 35px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    border: 1px solid #000;
+
+}

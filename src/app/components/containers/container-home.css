@@ -102,3 +102,10 @@ icon-user{
 .task-complete{
     background: #CFF4C8;
 }
+
+.task-list{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

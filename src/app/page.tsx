@@ -1,23 +1,23 @@
 "use client";
+import '@/app/components/containers/container-form.css'
 import React from 'react';
 import Home from '@/pages/Home'
 import Login from '@/pages/Login';
 import Register from '@/pages/Register';
-import Editprofile from '@/pages/Edit-profile';
-import Task_list from '@/pages/Task-list';
-import Recover_password from '@/pages/Recover-password'
+import CreateTask from '@/pages/CreateTask';
+import EditTask from '@/pages/[id]';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 export default function App(){
   return (
     <BrowserRouter>
         <Routes>
-            <Route path='/' index element={<Login />} />
-            <Route path='/Register' element={<Register />} />
-            <Route path='/Recover-password' element={<Recover_password />} />
-            <Route path='/Home' element={<Home/>} />
-            <Route path='/Task-list' element={<Task_list/>} />
-            <Route path='/Edit-profile' element={<Editprofile/>} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/home' element={<Home/>} />
+            <Route path='/login' index element={<Login />} />
+            <Route path='/register' element={<Register />} /> 
+            <Route path='/CreateTask' element={<CreateTask/>} />
+            <Route path='/Task/:id' element={<EditTask />} />
         </Routes>
     </BrowserRouter>
   );
